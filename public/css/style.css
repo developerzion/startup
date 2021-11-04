@@ -424,11 +424,11 @@ html{
 
     }
     .home .home-wrapper{
-        padding: 0 7%;
+        padding: 0 7%;        
     }
     .home .home-wrapper .section-one h1{
         font-size: 3rem;
-        margin-top: 3rem;
+        margin-top: 10rem;
         text-align: center;
     }
     .home .home-wrapper .section-one p{
