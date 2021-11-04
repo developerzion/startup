@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+:root{
+    --default-purple: #8d448b;
+    --default-black: #02073E;
+}
+*{
+    font-family: 'Poppins', sans-serif;
+    padding: 0; margin: 0;
+    outline: none; border: none;
+    transition: all .4s linear;
+    scroll-behavior: smooth;
+    /* text-transform: capitalize; */
+    text-decoration: none;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+}
+html{
+    font-size: 68%;
+}
+
+.header{
+    top: 0; right: 0; left: 0;
+    display: flex;
+    padding: 3rem 9%;
+    justify-content: space-between;
+    align-items: center;
+    background: #f6f8fb;
+}
+.header span{
+    display: flex;
+    align-items: center;
+    color: var(--default-black);
+}
+.header span img{
+    width: 20px;
+    margin-right: .5rem;
+}
+.header .navbar{
+    text-align: center;
+}
+.header .navbar a{
+    text-align: center;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    color: var(--default-black);
+    font-weight: 600;
+}
+.header .navbar a:hover{
+    color: var(--default-purple);
+    font-size: 1.3rem;
+}
+.header .signup a{
+    padding: 1rem 2rem;
+    font-size: 1.3rem;
+    color: var(--default-purple);
+    border: 2px solid var(--default-purple);
+    border-radius: .5rem;
+}
+.header .signup a:hover{
+    background: var(--default-purple);
+    color: #fff;
+}
+
+.home .home-wrapper{
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(30rem,1fr));
+    align-items: center;
+    height: 55rem;
+    background: #f6f8fb;
+    padding: 0 20rem;
+}
+
+.home .home-wrapper .section-one h1{
+    font-size: 4rem;
+    color: #02073E;
+}
+.home .home-wrapper .section-one p{
+    font-size: 1.5rem;
+    line-height: 3rem;
+}
+
+.home .home-wrapper .section-one .search-form{
+    display: flex;
+    gap: 1.5rem;
+    width: 40rem;
+    height: 4rem;
+    margin: 2rem 0;
+}
+.home .home-wrapper .section-one .search-form .search-field{
+    padding: 0 2rem;
+    width: 100%;
+}
+.home .home-wrapper .section-one .search-form .subscribe{
+    padding: 0 2rem;
+    background: var(--default-purple);
+    color: #fff;
+    cursor: pointer;
+}
+.home .home-wrapper .section-one .sponsor img{
+    width: 70%;
+}
+.home .home-wrapper .section-two img{
+    width: 100%;
+}
+
+
+/* Quality Section  */
+.quality{
+    margin: 5rem 20%;
+    text-align: center;
+}
+.quality .quality-header h5{
+    font-size: 1.2rem;
+    color: var(--default-purple);
+}
+.quality .quality-header h2{
+    color: var(--default-black);
+    margin: .5rem 0;
+}
+.quality .frame{
+    margin-top: 6rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    gap: 4rem;
+}
+.quality .frame .box img{
+    width: 30%;
+}
+.quality .frame .box h5{
+    font-size: 1rem;
+    padding: 1.5rem 0;
+}
+
+/* Agency Section  */
+.agency{
+    margin: 5rem 20%;
+}
+.agency .agency-wrapper{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 2rem;
+    align-items: center;
+    color: var(--default-black);
+}
+.agency .agency-wrapper .box img{
+    width: 100%;
+}
+.agency .agency-wrapper .box-resize{
+    width: 35rem;
+}
+.agency .agency-wrapper .box h1{
+    font-size: 3em;
+}
+.agency .agency-wrapper .box span{
+    line-height: 2.5rem;
+    font-size: 1.2rem;
+}
+.agency .agency-wrapper .box p{
+    padding: .5rem;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+.agency .agency-wrapper .box p .stylefont{
+    width: 2rem;
+    height: 2rem;
+    text-align: center;
+    line-height: 2rem;
+    color: #fff;
+    border-radius: 50%;
+    background: rgb(158, 153, 163);
+}
+.agency .agency-wrapper .box .learn{
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-top: 1.3rem;
+    color: var(--default-purple);
+}
+.agency .agency-wrapper .box .learn span{
+    padding: 0 1rem;
+}
+
+/* Trust Section  */
+.trust{
+    margin: 10rem 20%;
+}
+.trust .trust-header{
+    text-align: center;
+}
+.trust .trust-header h1{
+    text-align: center;
+    margin: 0 auto;
+    font-size: 2.5rem;
+    width: 50rem;
+}
+.trust .trust-header p{
+    width: 40rem;
+    margin: 0 auto;
+    line-height: 2.5rem;
+    font-size: 1.2rem;
+}
+.trust .trust-header .explore{
+    display: inline-block;
+    margin-top: 2rem;
+    font-weight: 600;
+    font-size: 1.2rem;
+
+    color: var(--default-purple);
+}
+.trust .trust-header .explore span{
+    padding: 0 .5rem;
+}
