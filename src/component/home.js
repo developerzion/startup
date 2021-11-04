@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 import Header from '../component/header'
 import banner from '../images/banner.png'
@@ -8,17 +8,17 @@ import frame from '../images/Frame.png'
 import frame1 from '../images/Frame1.png'
 import frame2 from '../images/Frame2.png'
 import frame3 from '../images/Frame3.png'
-import agency from '../images/agency.png'
-import trust from '../images/trust.png'
-import play from '../images/play.png'
-import comment1 from '../images/comment1.png'
-import comment2 from '../images/comment2.png'
-import comment3 from '../images/comment3.png'
-import support from '../images/support.png'
-import tutorial1 from '../images/tutorial1.png'
-import tutorial2 from '../images/tutorial2.png'
-import tutorial3 from '../images/tutorial3.png'
-import comment from '../images/comment.png'
+// import agency from '../images/agency.png'
+// import trust from '../images/trust.png'
+// import play from '../images/play.png'
+// import comment1 from '../images/comment1.png'
+// import comment2 from '../images/comment2.png'
+// import comment3 from '../images/comment3.png'
+// import support from '../images/support.png'
+// import tutorial1 from '../images/tutorial1.png'
+// import tutorial2 from '../images/tutorial2.png'
+// import tutorial3 from '../images/tutorial3.png'
+// import comment from '../images/comment.png'
 // import ticket from '../images/ticket.png'
 
 // $(function() {
