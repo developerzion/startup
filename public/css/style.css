@@ -460,6 +460,9 @@ html{
 
 
     /* Quality Section  */
+    .quality{
+        margin: 5rem 10%;
+    }
     .quality .quality-header h5{
         font-size: 1.3rem;
         margin-top: 9rem;
@@ -467,6 +470,10 @@ html{
     .quality .quality-header h2{
         font-size: 1.6rem;
         margin: .5rem 0;
+    }
+    .quality .frame .box{
+        box-shadow: var(--box-shadow);
+        padding: 5rem 4rem;
     }
     .quality .frame .box h5{
         font-size: 1.3rem;
