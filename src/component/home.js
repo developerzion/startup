@@ -15,10 +15,10 @@ import comment1 from '../images/comment1.png'
 import comment2 from '../images/comment2.png'
 import comment3 from '../images/comment3.png'
 import support from '../images/support.png'
-// import tutorial1 from '../images/tutorial1.png'
-// import tutorial2 from '../images/tutorial2.png'
-// import tutorial3 from '../images/tutorial3.png'
-// import comment from '../images/comment.png'
+import tutorial1 from '../images/tutorial1.png'
+import tutorial2 from '../images/tutorial2.png'
+import tutorial3 from '../images/tutorial3.png'
+import comment from '../images/comment.png'
 // import ticket from '../images/ticket.png'
 
 // $(function() {
@@ -162,7 +162,7 @@ const Home =()=>{
                     
                 </div>
             </section> 
-            {/* <section id="tutorial" className="tutorial">                
+            <section id="tutorial" className="tutorial">                
                 <div className="tutorial-wrapper">                   
                     <h4>Quality features</h4>  
                     <h1>Tutorials that people love most</h1>
@@ -185,9 +185,9 @@ const Home =()=>{
                         </div>
                     </div>
                     
-                    <img className="ticket" src={ticket} alt="ticket" />
+                    {/* <img className="ticket" src={ticket} alt="ticket" /> */}
                 </div>
-            </section> */}
+            </section>
 
             {/* <section id="tickets" className="tickets">
                 <div className="tickets-wrapper">

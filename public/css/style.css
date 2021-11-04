@@ -532,8 +532,7 @@ html{
     /* Support Section  */
     .support{
         margin: 2rem 10%;
-    }
-    
+    }    
     .support .support-wrapper .box h1{
         font-size: 2.5em;
     }
@@ -547,7 +546,26 @@ html{
         font-weight: normal;
         line-height: 2.5rem;
     }
-  
+    /* Tutorial Section  */
+    .tutorial .tutorial-wrapper{
+        padding: 8rem 10% 12rem 10%;
+        text-align: center;
+    }
+    .tutorial .tutorial-wrapper h4{
+        font-size: 2rem;
+    }
+    .tutorial .tutorial-wrapper h1{
+        font-size: 1.7rem;
+    }
+    .tutorial .tutorial-wrapper .tutorial-box .box h3{
+        font-size: 1.5rem;
+        font-weight: 300;
+    }
+    .tutorial .tutorial-wrapper .tutorial-box .box p{
+        padding: 1.3rem 1rem 3rem 1.5rem;
+        font-size: 1.2rem;
+    }
+
    
    
 }
