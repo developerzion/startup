@@ -11,9 +11,9 @@ import frame3 from '../images/Frame3.png'
 import agency from '../images/agency.png'
 // import trust from '../images/trust.png'
 // import play from '../images/play.png'
-// import comment1 from '../images/comment1.png'
-// import comment2 from '../images/comment2.png'
-// import comment3 from '../images/comment3.png'
+import comment1 from '../images/comment1.png'
+import comment2 from '../images/comment2.png'
+import comment3 from '../images/comment3.png'
 // import support from '../images/support.png'
 // import tutorial1 from '../images/tutorial1.png'
 // import tutorial2 from '../images/tutorial2.png'
@@ -96,25 +96,28 @@ const Home =()=>{
                         <p><span className="stylefont fa fa-check"></span> Unlimited design possibility</p>
                         <p><span className="stylefont fa fa-check"></span> Completely responsive features</p>
                         <p><span className="stylefont fa fa-check"></span> Easy to customize plugins</p>
-                        <Link to="/" className="learn">Learn more <span className="fa fa-angle-right"></span></Link>
+                        <Link to="#home" className="learn">Learn more <span className="fa fa-angle-right"></span></Link>
                     </div>
                     
                 </div>
             </section>  
 
-            {/* <section id="trust" className="trust">                
-                <div className="trust-header">                   
-                    <h1>Leading companies trust us to develop software</h1>
-                    <p>We believe it’s important for everyone to have access to software especially when it comes to digital learning be navigate.</p>
-                    <Link className="explore">Explore details <span className="fa fa-angle-right"></span></Link>
-                    <div className="overlay"> 
-                        <img src={ trust } alt="trust" />
-                        <img className="play" src={play} alt="trust" />
-                    </div>                   
+            <section id="trust" className="trust">                
+                <div className="trust-header">   
+                    <div className="box">
+                        <h1>Leading companies trust us to develop software</h1>
+                        <p>We believe it’s important for everyone to have access to software especially when it comes to digital learning be navigate.</p>
+                        <Link className="explore">Explore details <span className="fa fa-angle-right"></span></Link>
+                    </div>                
                 </div>
-            </section>  */}
+                {/* <div className="overlay"> 
+                    <img src={ trust } alt="trust" />
+                    <img className="play" src={play} alt="trust" />
+                </div>                    */}
+                
+            </section> 
 
-            {/* <section id="comments" className="comments">                
+            <section id="comments" className="comments">                
                 <div className="comment-wrapper">                   
                     <h4>Customer Comments</h4>  
                     <h1>Why customers love us</h1>
@@ -131,20 +134,20 @@ const Home =()=>{
                         <div className="box">
                             <img alt="comment1" src={comment2} />
                             <div className="text">
-                                <h3>Pierre Hackett</h3>
-                                <p>VP of Engineering</p>
+                                <h3>Natalia Sanz</h3>
+                                <p>Head of Technology</p>
                             </div>
                         </div>
                         <div className="box">
                             <img alt="comment1" src={comment3} />
                             <div className="text">
-                                <h3>Pierre Hackett</h3>
-                                <p>VP of Engineering</p>
+                                <h3>Ece Akman</h3>
+                                <p>Senior Marketer</p>
                             </div>
                         </div>
                     </div>                    
                 </div>
-            </section>   */}
+            </section>  
             {/* <section id="support" className="support">                
                 <div className="support-wrapper">                    
                     <div className="box box-resize">

@@ -183,50 +183,37 @@ html{
 
 /* Trust Section  */
 .trust{
-    margin: 10rem 20%;
+    margin: 5rem 20%;
 }
 .trust .trust-header{
-    text-align: center;
-}
-.trust .trust-header h1{
-    text-align: center;
-    margin: 0 auto;
-    font-size: 2.5rem;
-    width: 50rem;
-}
-.trust .trust-header p{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     width: 40rem;
     margin: 0 auto;
-    line-height: 2.5rem;
+    text-align: center;
+}
+.trust .trust-header .box h1{
+    font-size: 2.7rem;
+}
+.trust .trust-header .box p{
     font-size: 1.2rem;
+    padding: 1.5rem 0;
+    line-height: 2.5rem;
 }
 .trust .trust-header .explore{
     display: inline-block;
-    margin-top: 2rem;
     font-weight: 600;
     font-size: 1.2rem;
-
     color: var(--default-purple);
 }
-.trust .trust-header .explore span{
-    padding: 0 .5rem;
-}
-.trust .trust-header .overlay{
-   
-    width: 100%;
+.trust .overlay{   
+    width: 10rem;
     height: 40rem;
     line-height: 40rem;
     margin-top: 3rem;
-
 }
-.trust .trust-header .overlay img{
+.trust  .overlay img{
     width: 100%;
-
-}
-.trust .trust-header .overlay .play{
-    position: absolute;
-    width: 70px;
-    cursor: pointer;
 }
 
 /* Comments Section  */
@@ -494,6 +481,55 @@ html{
         display: inline-block;
         padding: 2rem 0;
     }
+    /* Trust Section  */
+    .trust{
+        margin: 5rem 10%;
+    }
+    .trust .trust-header{
+        width: 30rem;
+        margin: 0 auto;
+    }
+    .trust .trust-header .box h1{
+        font-size: 2rem;
+    }
+    .trust .trust-header .box p{
+        text-align: left;
+    }
+    .trust .trust-header .explore{
+        display: flex;
+        align-items: center;
+    }
+    .trust .trust-header .explore span{
+        margin-left: 1rem;
+    }
+    /* Comments Section  */
+    .comments{
+        padding: 10rem 10%;
+    }
+    .comments .comment-wrapper h4{
+        font-size: 2rem;
+    }
+    .comments .comment-wrapper h1{
+        font-size: 1.5rem;
+    }
+    .comments .comment-wrapper .comment-p{
+        font-size: 1.5rem;
+    }
+    .comments .comment-wrapper .comment{
+        grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+        gap: 2rem;
+    }
+    .comments .comment-wrapper .comment .box{
+        box-shadow: var(--box-shadow);
+    }
+    .comments .comment-wrapper .comment .box h3{
+        font-size: 1.5rem;
+    }
+    .comments .comment-wrapper .comment .box p{
+        font-size: 1.3rem;
+        font-weight: 500;
+    }
+
    
    
 }
