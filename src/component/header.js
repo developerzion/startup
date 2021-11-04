@@ -7,7 +7,7 @@ import Logo from '../images/logo.png'
 const Header = () =>{
     return(
         <header className="header">
-
+            
             <span className="logo"><img alt='Logo' src={Logo} /> <h2>StartupLanding</h2></span>
             
             <nav className="navbar">
@@ -18,9 +18,11 @@ const Header = () =>{
                 <Link to="/" >About Us</Link>
             </nav>
 
+        
             <div className="signup">
                 <Link to='/'>Register Now</Link>
             </div>
+            <span className="bars fa fa-bars"></span>
         </header>
     )
 }
