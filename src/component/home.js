@@ -14,7 +14,7 @@ import agency from '../images/agency.png'
 import comment1 from '../images/comment1.png'
 import comment2 from '../images/comment2.png'
 import comment3 from '../images/comment3.png'
-// import support from '../images/support.png'
+import support from '../images/support.png'
 // import tutorial1 from '../images/tutorial1.png'
 // import tutorial2 from '../images/tutorial2.png'
 // import tutorial3 from '../images/tutorial3.png'
@@ -148,7 +148,7 @@ const Home =()=>{
                     </div>                    
                 </div>
             </section>  
-            {/* <section id="support" className="support">                
+            <section id="support" className="support">                
                 <div className="support-wrapper">                    
                     <div className="box box-resize">
                         <h1>Free Customer Support to ensure what you like to expect</h1>
@@ -162,7 +162,7 @@ const Home =()=>{
                     
                 </div>
             </section> 
-            <section id="tutorial" className="tutorial">                
+            {/* <section id="tutorial" className="tutorial">                
                 <div className="tutorial-wrapper">                   
                     <h4>Quality features</h4>  
                     <h1>Tutorials that people love most</h1>
