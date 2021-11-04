@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import Logo from '../images/logo.png'
 
 
+
 const Header = () =>{
     return(
         <header className="header">
@@ -22,7 +23,7 @@ const Header = () =>{
             <div className="signup">
                 <Link to='#register'>Register Now</Link>
             </div>
-            <span className="bars fa fa-bars"></span>
+            <span onClick={ (e)=>{ e.target.classList.toggle("fa-times"); document.querySelector(".navbar").classList.toggle("active")} } className="bars fa fa-bars"></span>
         </header>
     )
 }

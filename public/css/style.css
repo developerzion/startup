@@ -9,7 +9,7 @@
     font-family: 'Poppins', sans-serif;
     padding: 0; margin: 0;
     outline: none; border: none;
-    transition: all .4s linear;
+    transition: all .2s linear;
     scroll-behavior: smooth;
     text-decoration: none;
     box-sizing: border-box;
@@ -43,7 +43,9 @@ html{
     width: 20px;
     margin-right: .5rem;
 }
-
+.header .navbar.active{
+    left: 0;
+}
 .header .navbar a{
     text-align: center;
     padding: 1rem 2rem;
@@ -407,21 +409,23 @@ html{
     }
     .header .navbar{
         position: fixed;        
-        top: 0rem;
-        left: 0;
+        top: 6rem;
+        left: -100%;
         width: 100%;
         box-shadow: var(--box-shadow);
         height: 100vh;
         background: #fff;
-        display: none;
     }
     .header .navbar a{
         display: block;
         text-align: left;
         font-size: 1.7rem;
-        margin: 1.5rem 0;
+        margin: 1.5rem 1rem;
         color: #7d7c88;
-
+    }
+    .header .navbar a:hover{
+        font-size: 1.7rem;
+        color: #7d7c88;
     }
     .home .home-wrapper{
         padding: 0 7%;        
