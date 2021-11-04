@@ -19,12 +19,20 @@ html{
 }
 
 .header{
+    position: fixed;
     top: 0; right: 0; left: 0;
     display: flex;
-    padding: 3rem 9%;
+    padding: 2rem 9%;
     justify-content: space-between;
     align-items: center;
     background: #f6f8fb;
+}
+.header.active{
+    background: #fff;
+    box-shadow: var(--box-shadow);
+}
+.header .bars{
+    display: none;
 }
 .header span{
     display: flex;
@@ -382,7 +390,10 @@ html{
 }
 @media (max-width: 937px){
     .header{
-        padding: 3rem 5%;
+        padding: 2rem 5%;
+    }
+    .header .bars{
+        display: inline-block;
     }
     .header span{
         font-size: 1.3rem;
@@ -396,9 +407,10 @@ html{
     }
     .header .navbar{
         position: fixed;        
-        top: 2rem;
+        top: 0rem;
         left: 0;
         width: 100%;
+        box-shadow: var(--box-shadow);
         height: 100vh;
         background: #fff;
         display: none;
@@ -406,7 +418,9 @@ html{
     .header .navbar a{
         display: block;
         text-align: left;
-        font-size: 2rem;
+        font-size: 1.7rem;
+        margin: 1.5rem 0;
+        color: #7d7c88;
 
     }
     .home .home-wrapper{

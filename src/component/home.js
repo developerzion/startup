@@ -21,15 +21,7 @@ import tutorial3 from '../images/tutorial3.png'
 import comment from '../images/comment.png'
 // import ticket from '../images/ticket.png'
 
-// $(function() {
-//     $(window).on("scroll", function() {
-//         if($(window).scrollTop() > 50) {
-//             $(".header").addClass("active");
-//         } else {
-//             $(".header").removeClass("active");
-//         }
-//     });
-// });
+
 
 const Home =()=>{
     return (
@@ -154,7 +146,7 @@ const Home =()=>{
                         <h1>Free Customer Support to ensure what you like to expect</h1>
                         <span>We offer a risk-free trial period of up to two weeks. You will only have to pay if you are happy with the developer and wish to continue. If you are unsatisfied, we’ll refund payment or fix issues on our dime period customers.</span>
                         <p>If you are happy with the developer and wish to continue. If you are unsatisfied, we’ll refund payment or fix issues.</p>
-                        <Link to="/" className="learn">Learn more <span className="fa fa-angle-right"></span></Link>
+                        <Link to="#home" className="learn">Learn more <span className="fa fa-angle-right"></span></Link>
                     </div>
                     <div className="box">
                         <img src={support} alt="support" />
