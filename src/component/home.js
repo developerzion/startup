@@ -62,22 +62,22 @@ const Home =()=>{
                 
                 <div className="frame">
                     <div className="box">
-                        <img alt="frame1" src={frame} />
+                        <img alt="frame" src={frame} />
                         <h5>Unlimited Customization</h5>
                         <p>Get your blood tests delivered at home collect a sample from the your blood tests.</p>
                     </div>
                     <div className="box">
-                        <img alt="frame1" src={frame1} />
+                        <img alt="frame 1" src={frame1} />
                         <h5>Vector shape & resizable</h5>
                         <p>Get your blood tests delivered at home collect a sample from the your blood tests.</p>
                     </div>
                     <div className="box">
-                        <img alt="frame1" src={frame2} />
+                        <img alt="frame 2" src={frame2} />
                         <h5>Editing freedom</h5>
                         <p>Get your blood tests delivered at home collect a sample from the your blood tests.</p>
                     </div>
                     <div className="box">
-                        <img alt="frame1" src={frame3} />
+                        <img alt="frame 3" src={frame3} />
                         <h5>Best Award history</h5>
                         <p>Get your blood tests delivered at home collect a sample from the your blood tests.</p>
                     </div>

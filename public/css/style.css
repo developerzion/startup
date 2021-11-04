@@ -456,5 +456,23 @@ html{
     .home .home-wrapper .section-one .search-form{       
         display: none;
     }
+
+
+
+    /* Quality Section  */
+    .quality .quality-header h5{
+        font-size: 1.3rem;
+        margin-top: 9rem;
+    }
+    .quality .quality-header h2{
+        font-size: 1.6rem;
+        margin: .5rem 0;
+    }
+    .quality .frame .box h5{
+        font-size: 1.3rem;
+    }
+    .quality .frame .box p{
+        font-size: 1.3rem;
+    }
 }
 
