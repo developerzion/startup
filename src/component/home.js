@@ -1,5 +1,5 @@
 import React from "react";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import Header from '../component/header'
 import banner from '../images/banner.png'
@@ -8,7 +8,7 @@ import frame from '../images/Frame.png'
 import frame1 from '../images/Frame1.png'
 import frame2 from '../images/Frame2.png'
 import frame3 from '../images/Frame3.png'
-// import agency from '../images/agency.png'
+import agency from '../images/agency.png'
 // import trust from '../images/trust.png'
 // import play from '../images/play.png'
 // import comment1 from '../images/comment1.png'
@@ -85,14 +85,14 @@ const Home =()=>{
 
             </section>
 
-            {/* <section id="agency" className="agency">                
+            <section id="agency" className="agency">                
                 <div className="agency-wrapper">
                     <div className="box">
                         <img src={agency} alt="Agency" />
                     </div>
                     <div className="box box-resize">
                         <h1>Boost your agencies by choosing Ninja Developers</h1>
-                        <span>Create custom landing pages with Shades that convert more visitors than any website, no coding required.</span>
+                        <span className="agent-span">Create custom landing pages with Shades that convert more visitors than any website, no coding required.</span>
                         <p><span className="stylefont fa fa-check"></span> Unlimited design possibility</p>
                         <p><span className="stylefont fa fa-check"></span> Completely responsive features</p>
                         <p><span className="stylefont fa fa-check"></span> Easy to customize plugins</p>
@@ -100,7 +100,7 @@ const Home =()=>{
                     </div>
                     
                 </div>
-            </section>   */}
+            </section>  
 
             {/* <section id="trust" className="trust">                
                 <div className="trust-header">                   
