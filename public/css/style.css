@@ -557,6 +557,9 @@ html{
     .tutorial .tutorial-wrapper h1{
         font-size: 1.7rem;
     }
+    .tutorial .tutorial-wrapper .tutorial-box .box{
+        box-shadow: var(--box-shadow);
+    }
     .tutorial .tutorial-wrapper .tutorial-box .box h3{
         font-size: 1.5rem;
         font-weight: 300;
