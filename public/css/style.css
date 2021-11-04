@@ -401,7 +401,8 @@ html{
         font-size: 1.3rem;
     }
     .header .bars{
-        font-size: 2rem;
+        font-size: 2.5rem;
+        color: var(--default-black);
     }
     .header .signup a{
         display: none;
