@@ -304,13 +304,18 @@ html{
 .comments .comment-wrapper .comment{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
-    gap: 1.5rem;
     justify-content: center;
     text-align: center;
 }
 .comments .comment-wrapper .comment .box{
     padding: 2rem 0;
     text-align: center;
+}
+.comments .comment-wrapper .comment .box img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
 }
 .comments .comment-wrapper .comment .box .text h3{
     font-size: 1.5rem;
@@ -678,11 +683,11 @@ html{
     }
     .comments .comment-wrapper .comment{
         grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-        gap: 2rem;
+        gap: 0rem;
     }
     .comments .comment-wrapper .comment .box{
-        box-shadow: var(--box-shadow);
-        gap: 3rem;
+        /* box-shadow: var(--box-shadow); */
+        gap: 1rem;
     }
     .comments .comment-wrapper .comment .box h3{
         font-size: 1.5rem;

@@ -20,9 +20,9 @@ import frame1 from '../images/Frame1.png'
 import frame2 from '../images/Frame2.png'
 import frame3 from '../images/Frame3.png'
 import agency from '../images/agency.png'
-import comment1 from '../images/comment1.png'
-import comment2 from '../images/comment2.png'
-import comment3 from '../images/comment3.png'
+import user1 from '../images/user1.jfif'
+import user2 from '../images/user2.jfif'
+import user3 from '../images/user3.jfif'
 import support from '../images/support.png'
 import tutorial1 from '../images/tutorial1.png'
 import tutorial2 from '../images/tutorial2.png'
@@ -125,21 +125,21 @@ const Home =()=>{
                     
                     <div className="comment">
                         <div className="box">
-                            <img alt="comment1" src={comment1} />
+                            <img alt="comment1" src={user1} />
                             <div className="text">
                                 <h3>Pierre Hackett</h3>
                                 <p>VP of Engineering</p>
                             </div>
                         </div>
                         <div className="box">
-                            <img alt="comment1" src={comment2} />
+                            <img alt="comment1" src={user2} />
                             <div className="text">
                                 <h3>Natalia Sanz</h3>
                                 <p>Head of Technology</p>
                             </div>
                         </div>
                         <div className="box">
-                            <img alt="comment1" src={comment3} />
+                            <img alt="comment1" src={user3} />
                             <div className="text">
                                 <h3>Ece Akman</h3>
                                 <p>Senior Marketer</p>
