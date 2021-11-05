@@ -23,6 +23,7 @@ import agency from '../images/agency.png'
 import user1 from '../images/user1.jfif'
 import user2 from '../images/user2.jfif'
 import user3 from '../images/user3.jfif'
+import user4 from '../images/user4.jpg'
 import support from '../images/support.png'
 import tutorial1 from '../images/tutorial1.png'
 import tutorial2 from '../images/tutorial2.png'
@@ -140,6 +141,13 @@ const Home =()=>{
                         </div>
                         <div className="box">
                             <img alt="comment1" src={user3} />
+                            <div className="text">
+                                <h3>Ece Akman</h3>
+                                <p>Senior Marketer</p>
+                            </div>
+                        </div>
+                        <div className="box">
+                            <img alt="comment1" src={user4} />
                             <div className="text">
                                 <h3>Ece Akman</h3>
                                 <p>Senior Marketer</p>

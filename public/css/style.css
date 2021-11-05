@@ -682,8 +682,8 @@ html{
         font-size: 1.5rem;
     }
     .comments .comment-wrapper .comment{
-        grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-        gap: 0rem;
+        grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+        gap: 1rem;
     }
     .comments .comment-wrapper .comment .box{
         /* box-shadow: var(--box-shadow); */
