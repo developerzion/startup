@@ -1,3 +1,11 @@
+/* ============================================
+    Github: github.com/developerzion
+    Linkedin: linkedin.com/in/developerzion
+    Mail: devparse.official@gmail.com
+    Author: Moses Samuel Zion
+    Website: www.devparse.com 
+============================================ */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
 
 :root{
@@ -233,16 +241,37 @@ html{
 .trust  .overlay img{
     width: 100%;
 }
-.trust  .overlay img.play{
-    width: 10%;
+.play-btn {
+    background: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 108px;
+    animation: animate 2s linear infinite;
+    cursor: pointer;
+    width: 70px;
+    height: 70px;
     position: relative;
-    top: 50%;
     left: 50%;
+    top: 50%;
     transform: translate(-50%,-50%);
 }
-.trust .overlay img.play::before, .trust  .overlay img.play::after{
-    position: absolute;
-    border: 2px solid var(--default-purple);
+.play-btn i {
+    color: var(--default-purple);
+    font-size: 60px;
+}
+@keyframes animate{
+   0%{
+      box-shadow: 0 0 0 0 var(--default-purple);
+   }
+   40%{
+      box-shadow: 0 0 0 50px rgba(255,193,7,0);
+   }
+   80%{
+      box-shadow: 0 0 0 50px rgba(255,193,7,0);
+   }
+   100%{
+      box-shadow: 0 0 0 rgba(255,193,7,0);
+   }
 }
 
 /* Comments Section  */

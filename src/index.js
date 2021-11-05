@@ -1,3 +1,11 @@
+/* ============================================
+    Github: github.com/developerzion
+    Linkedin: linkedin.com/in/developerzion
+    Mail: devparse.official@gmail.com
+    Author: Moses Samuel Zion
+    Website: www.devparse.com 
+============================================ */
+
 import React, { Component } from 'react'
 import ReactDOM from 'react-dom'
 import { BrowserRouter, Route, Switch } from 'react-router-dom'

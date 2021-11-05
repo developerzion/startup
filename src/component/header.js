@@ -1,3 +1,11 @@
+/* ============================================
+    Github: github.com/developerzion
+    Linkedin: linkedin.com/in/developerzion
+    Mail: devparse.official@gmail.com
+    Author: Moses Samuel Zion
+    Website: www.devparse.com 
+============================================ */
+
 import React from "react";
 import { Link } from "react-router-dom";
 
