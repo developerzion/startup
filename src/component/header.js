@@ -7,17 +7,18 @@
 ============================================ */
 
 import React from "react";
-// import { Link } from "react-router-dom";
 
+//Import Image
 import Logo from '../images/logo.png'
 
-
+//Functions
 function closeBar(){
     var element = document.querySelector(".navbar");
     element.classList.remove("active");
     document.querySelector("#bars").classList.toggle("fa-times")
 }
 
+//Header Component
 const Header = () =>{
     return(
         <header className="header">

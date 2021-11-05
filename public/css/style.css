@@ -371,7 +371,7 @@ html{
     background: #f6f8fb;
 }
 .tutorial .tutorial-wrapper{
-    padding: 8rem 20% 0rem 20%;
+    padding: 8rem 20% 7rem 20%;
     text-align: center;
 }
 .tutorial .tutorial-wrapper h4{
@@ -412,11 +412,8 @@ html{
 .tutorial .tutorial-wrapper .tutorial-box .box p img{
     margin-right: 1rem;
 }
-
-
 .tickets{
     margin-top: -6rem;
-    /* background: #f6f8fb; */
 }
 .tickets .tickets-wrapper{
     padding: 0 20% 0 20%;
@@ -428,7 +425,37 @@ html{
     background-image: url("../images/ticket.png");
     background-repeat: no-repeat;
     background-size: contain;
-    
+}
+
+/* Footer Section  */
+.footer{
+    margin-top: 5rem;
+}
+.footer .footer-wrapper{
+    padding: 8rem 20% 4rem 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+
+}
+.footer .footer-wrapper .box-text{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: var(--default-black);
+}
+.footer .footer-wrapper .box-text img{
+    width: 1.5rem;
+    margin-right: 1rem;
+}
+.footer .footer-wrapper .box-nav{
+    text-align: center;
+}
+.footer .footer-wrapper .box-nav a{
+    margin-right: 2rem;
+    font-size: 1.3rem;
+    font-weight: 600;    
 }
 
 
@@ -658,6 +685,27 @@ html{
     .tutorial .tutorial-wrapper .tutorial-box .box p{
         padding: 1.3rem 1rem 3rem 1.5rem;
         font-size: 1.2rem;
+    }
+    /* Footer Section  */
+
+    .footer .footer-wrapper{
+        padding: 8rem 10% 4rem 10%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+    .footer .footer-wrapper .box-text{
+        display: flex;
+        align-items: center;
+        font-size: 1.3rem;
+        font-weight: 500;
+        color: var(--default-black);
+        text-align: center;
+    }
+    .footer .footer-wrapper .box-nav a{
+        font-size: 1.1rem;  
     }
 
    

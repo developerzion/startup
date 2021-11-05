@@ -7,9 +7,12 @@
 ============================================ */
 
 import React from "react";
-// import { Link } from "react-router-dom";
+import 'animate.css';
 
+//Import Component
 import Header from '../component/header'
+
+//Import Images
 import banner from '../images/banner.png'
 import sponsor from '../images/sponsor.png'
 import frame from '../images/Frame.png'
@@ -27,11 +30,7 @@ import tutorial3 from '../images/tutorial3.png'
 import comment from '../images/comment.png'
 // import ticket from '../images/ticket.png'
 
-
-import 'animate.css';
-
-
-
+//Home Component
 const Home =()=>{
     return (
         <div>
@@ -61,7 +60,7 @@ const Home =()=>{
                     <h2>Meet exciting feature of app</h2>
                 </div>
                 
-                <div className="frame">
+                <div className="frame animate">
                     <div className="box">
                         <img alt="frame" src={frame} />
                         <h5>Unlimited Customization</h5>
@@ -197,9 +196,27 @@ const Home =()=>{
                 </div>
             </section> */}
 
+            <section id="footer" className="footer">
+                <div className="footer-wrapper">
+                    <div className="box-text">
+                        <span>Copyright by { new Date().getFullYear() } Redq, Inc. Developed by: Developerzion </span>
+                    </div>
+                    
+                    <div className="box-nav">
+                        <a href="#home" >Home</a>
+                        <a href="#quality" >Advertise</a>
+                        <a href="#agency" >Developers</a>
+                        <a href="#support" >Support</a>
+                        <a href="#blog" >Blog</a>
+                    </div>
+                </div>
+
+            </section>
+
         </div>
         
     )
 }
+
 
 export default Home
