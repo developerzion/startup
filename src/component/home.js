@@ -28,7 +28,7 @@ import tutorial1 from '../images/tutorial1.png'
 import tutorial2 from '../images/tutorial2.png'
 import tutorial3 from '../images/tutorial3.png'
 import comment from '../images/comment.png'
-import ticket from '../images/ticket.png'
+// import ticket from '../images/ticket.png'
 
 //Home Component
 const Home =()=>{
