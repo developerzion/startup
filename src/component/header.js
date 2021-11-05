@@ -33,8 +33,8 @@ const Header = () =>{
                 <a onClick={ ()=> closeBar() } href="#blog" >Blog</a>
 
                 <form className="mobile-search-form">
-                    <input className="mobile-search-field" placeholder="Subscribe newsletter" />
-                    <button className="mobiile-subscribe"><span className="fa fa-paper-plane"></span></button>
+                    <input className="mobile-search-field" placeholder="Search ..." />
+                    <button className="mobile-subscribe"><span className="fa fa-search"></span></button>
                 </form>
             </nav>
         
