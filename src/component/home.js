@@ -28,7 +28,7 @@ import tutorial1 from '../images/tutorial1.png'
 import tutorial2 from '../images/tutorial2.png'
 import tutorial3 from '../images/tutorial3.png'
 import comment from '../images/comment.png'
-// import ticket from '../images/ticket.png'
+import ticket from '../images/ticket.png'
 
 //Home Component
 const Home =()=>{
@@ -190,16 +190,20 @@ const Home =()=>{
                 </div>
             </section>
 
-            {/* <section id="tickets" className="tickets">
+            <section id="tickets" className="tickets">
                 <div className="tickets-wrapper">
-                    <div className="ticket"></div>
+                    <div className="ticket">
+                        <h1>Hire the world’s best developers and designers around!</h1>
+                        <a href="https://api.whatsapp.com/send/?phone=2347036195368&text=Hello+Sam&app_absent=0">HIRE DEVELOPERS</a>
+                    </div>
+                   
                 </div>
-            </section> */}
+            </section>
 
             <section id="footer" className="footer">
                 <div className="footer-wrapper">
                     <div className="box-text">
-                        <span>Copyright by { new Date().getFullYear() } Redq, Inc. Developed by: Developerzion </span>
+                        <span>Copyright by { new Date().getFullYear() } Redq, Inc. Developed by: <a href="https://developerzion.netlify.app/">Developerzion</a> </span>
                     </div>
                     
                     <div className="box-nav">
