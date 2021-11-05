@@ -12,6 +12,11 @@ import React from "react";
 import Logo from '../images/logo.png'
 
 
+function closeBar(){
+    var element = document.querySelector(".navbar");
+    element.classList.remove("active");
+    document.querySelector("#bars").classList.toggle("fa-times")
+}
 
 const Header = () =>{
     return(
@@ -20,20 +25,17 @@ const Header = () =>{
             <span className="logo"><img alt='Logo' src={Logo} /> <h2>StartupLanding</h2></span>
             
             <nav className="navbar">
-                <a href="#home" >Home</a>
-                <a href="#quality" >Advertise</a>
-                <a href="#agency" >Developers</a>
-                <a href="#support" >Support</a>
-                <a href="#blog" >Blog</a>
-                {/* <Link to="#contact" >Contact</Link>
-                <Link to="#about" >About Us</Link> */}
+                <a onClick={ ()=> closeBar() } href="#home" >Home</a>
+                <a onClick={ ()=> closeBar() } href="#quality" >Advertise</a>
+                <a onClick={ ()=> closeBar() } href="#agency" >Developers</a>
+                <a onClick={ ()=> closeBar() } href="#support" >Support</a>
+                <a onClick={ ()=> closeBar() } href="#blog" >Blog</a>
             </nav>
-
         
             <div className="signup">
                 <a href="#blog" >Register Now</a>
             </div>
-            <span onClick={ (e)=>{ e.target.classList.toggle("fa-times"); document.querySelector(".navbar").classList.toggle("active")} } className="bars fa fa-bars"></span>
+            <span id="bars" onClick={ (e)=>{ e.target.classList.toggle("fa-times"); document.querySelector(".navbar").classList.toggle("active")} } className="bars fa fa-bars"></span>
         </header>
     )
 }

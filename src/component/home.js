@@ -28,6 +28,9 @@ import comment from '../images/comment.png'
 // import ticket from '../images/ticket.png'
 
 
+import 'animate.css';
+
+
 
 const Home =()=>{
     return (
@@ -36,7 +39,7 @@ const Home =()=>{
             <section id="home" className="home">
                 <div className="home-wrapper">
                     <div className="section-one">
-                        <h1>Great software is built with amazing developers</h1>
+                        <h1 className="animate__animated animate__shakeX">Great software is built with amazing developers</h1>
                         <p>We help build and manage a team of world-class developers to bring your vision to life</p>
 
                         <form className="search-form">
