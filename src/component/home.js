@@ -22,7 +22,7 @@ import frame3 from '../images/Frame3.png'
 import agency from '../images/agency.png'
 import user1 from '../images/user1.jfif'
 import user2 from '../images/user2.jfif'
-import user3 from '../images/user3.jfif'
+import user3 from '../images/user3.jpg'
 import user4 from '../images/user4.jpg'
 import support from '../images/support.png'
 import tutorial1 from '../images/tutorial1.png'
@@ -120,7 +120,7 @@ const Home =()=>{
 
             <section id="comments" className="comments">                
                 <div className="comment-wrapper">                   
-                    <h4>Customer Comments</h4>  
+                    <h4>Our Team</h4>  
                     <h1>Why customers love us</h1>
                     <p className="comment-p">They are doing amazing job with hundred percent customer satisfaction, Love their work and would like to work with them again</p>
                     
@@ -142,8 +142,8 @@ const Home =()=>{
                         <div className="box">
                             <img alt="comment1" src={user3} />
                             <div className="text">
-                                <h3>Ece Akman</h3>
-                                <p>Senior Marketer</p>
+                                <h3>Moses Samuel</h3>
+                                <p>Software Engineer</p>
                             </div>
                         </div>
                         <div className="box">
