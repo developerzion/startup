@@ -306,20 +306,18 @@ html{
     grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
     gap: 1.5rem;
     justify-content: center;
+    text-align: center;
 }
 .comments .comment-wrapper .comment .box{
-    display: flex;
-    gap: 1rem;
-    align-items: center;
     padding: 2rem 0;
-    justify-content: center;
-    text-align: left;
+    text-align: center;
 }
 .comments .comment-wrapper .comment .box .text h3{
     font-size: 1.5rem;
 }
 .comments .comment-wrapper .comment .box .text p{
-    font-size: 1.4rem;
+    font-size: 1.5rem;
+    font-weight: normal;
 }
 
 /* Support Section  */
@@ -661,6 +659,14 @@ html{
     .comments{
         padding: 4rem 10%;
     }
+    /* .comments .comment-wrapper .comment .box{
+        display: flex;
+        gap: 2rem;
+        align-items: center;
+        padding: 2rem 0;
+        justify-content: center;
+        text-align: left;
+    } */
     .comments .comment-wrapper h4{
         font-size: 2rem;
     }
@@ -676,6 +682,7 @@ html{
     }
     .comments .comment-wrapper .comment .box{
         box-shadow: var(--box-shadow);
+        gap: 3rem;
     }
     .comments .comment-wrapper .comment .box h3{
         font-size: 1.5rem;
