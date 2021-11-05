@@ -7,7 +7,7 @@
 ============================================ */
 
 import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 import Header from '../component/header'
 import banner from '../images/banner.png'
@@ -94,7 +94,7 @@ const Home =()=>{
                         <p><span className="stylefont fa fa-check"></span> Unlimited design possibility</p>
                         <p><span className="stylefont fa fa-check"></span> Completely responsive features</p>
                         <p><span className="stylefont fa fa-check"></span> Easy to customize plugins</p>
-                        <Link to="#home" className="learn">Learn more <span className="fa fa-angle-right"></span></Link>
+                        <a href="#home" className="learn">Learn more <span className="fa fa-angle-right"></span></a>
                     </div>
                     
                 </div>
@@ -105,12 +105,12 @@ const Home =()=>{
                     <div className="box">
                         <h1>Leading companies trust us to develop software</h1>
                         <p>We believe it’s important for everyone to have access to software especially when it comes to digital learning be navigate.</p>
-                        <Link className="explore">Explore details <span className="fa fa-angle-right"></span></Link>
+                        <a href="#home" className="explore">Explore details <span className="fa fa-angle-right"></span></a>
                     </div>                
                 </div>
                 <div className="overlay">
                     <div className="play-btn">
-                        <i className="fa fa-play-circle"></i>
+                        <a href="https://www.youtube.com/watch?v=jQLht1t_1QE"><i className="fa fa-play-circle"></i></a>
                     </div> 
                 </div>                   
                 
@@ -153,7 +153,7 @@ const Home =()=>{
                         <h1>Free Customer Support to ensure what you like to expect</h1>
                         <span>We offer a risk-free trial period of up to two weeks. You will only have to pay if you are happy with the developer and wish to continue. If you are unsatisfied, we’ll refund payment or fix issues on our dime period customers.</span>
                         <p>If you are happy with the developer and wish to continue. If you are unsatisfied, we’ll refund payment or fix issues.</p>
-                        <Link to="#home" className="learn">Learn more <span className="fa fa-angle-right"></span></Link>
+                        <a href="#home" className="learn">Learn more <span className="fa fa-angle-right"></span></a>
                     </div>
                     <div className="box">
                         <img src={support} alt="support" />
@@ -161,7 +161,7 @@ const Home =()=>{
                     
                 </div>
             </section> 
-            <section id="tutorial" className="tutorial">                
+            <section id="blog" className="tutorial">                
                 <div className="tutorial-wrapper">                   
                     <h4>Quality features</h4>  
                     <h1>Tutorials that people love most</h1>

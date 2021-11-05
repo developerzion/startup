@@ -15,8 +15,7 @@ import Home from './component/home'
 class App extends Component{
   render(){
     return (
-      <BrowserRouter>
-        
+      <BrowserRouter>        
         <Switch>
           <Route path="/" component={Home}></Route>
         </Switch>          

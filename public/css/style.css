@@ -34,6 +34,7 @@ html{
     justify-content: space-between;
     align-items: center;
     background: #f6f8fb;
+    z-index: 1000;
 }
 .header.active{
     background: #fff;
@@ -125,8 +126,9 @@ html{
 
 /* Quality Section  */
 .quality{
-    margin: 5rem 20%;
     text-align: center;
+    padding: 10rem 0;
+    margin: -5rem 20%;
 }
 .quality .quality-header h5{
     font-size: 2.5rem;
@@ -155,7 +157,8 @@ html{
 
 /* Agency Section  */
 .agency{
-    margin: 5rem 20%;
+    margin: 0rem 20%;
+    padding: 10rem 0;
 }
 .agency .agency-wrapper{
     display: grid;
@@ -206,7 +209,7 @@ html{
 
 /* Trust Section  */
 .trust{
-    margin: 5rem 20%;
+    margin: 0rem 20%;
 }
 .trust .trust-header{
     display: grid;
@@ -276,7 +279,7 @@ html{
 
 /* Comments Section  */
 .comments{
-    padding: 10rem 20%;
+    padding: 10rem 20% 0 20%;
 }
 .comments .comment-wrapper{
     text-align: center;
@@ -319,6 +322,7 @@ html{
 
 /* Support Section  */
 .support{
+    padding: 10rem 0;
     margin: 2rem 20%;
 }
 .support .support-wrapper{
@@ -363,11 +367,11 @@ html{
 
 /* Tutorial Section  */
 .tutorial{
-    margin-top: 10rem;
+    margin-top: 5rem;
     background: #f6f8fb;
 }
 .tutorial .tutorial-wrapper{
-    padding: 8rem 20% 12rem 20%;
+    padding: 8rem 20% 0rem 20%;
     text-align: center;
 }
 .tutorial .tutorial-wrapper h4{
@@ -521,7 +525,8 @@ html{
 
     /* Quality Section  */
     .quality{
-        margin: 6rem 10%;
+        margin: 0rem 10%;
+        padding: 3rem 0;
     }
     .quality .quality-header h5{
         font-size: 2rem;
@@ -543,7 +548,8 @@ html{
     }
     /* Agency Section  */
     .agency{
-        margin: 5rem 10%;
+        padding: 10rem 0;
+        margin: 0rem 10%;
     } 
     .agency .agency-wrapper .box-resize{
         width: 30rem;
@@ -558,7 +564,7 @@ html{
     }
     /* Trust Section  */
     .trust{
-        margin: 5rem 10%;
+        margin: 0rem 10% 5rem 10%;
     }
     .trust .trust-header{
         width: 30rem;
@@ -585,7 +591,7 @@ html{
     }
     /* Comments Section  */
     .comments{
-        padding: 3rem 10%;
+        padding: 4rem 10%;
     }
     .comments .comment-wrapper h4{
         font-size: 2rem;
@@ -612,7 +618,8 @@ html{
     }
     /* Support Section  */
     .support{
-        margin: 2rem 10%;
+        padding: 10rem 0;
+        margin: 0rem 10%;
     }    
     .support .support-wrapper .box h1{
         font-size: 2.5em;
@@ -628,8 +635,11 @@ html{
         line-height: 2.5rem;
     }
     /* Tutorial Section  */
+    .tutorial{
+        margin-top: 0rem;
+    }
     .tutorial .tutorial-wrapper{
-        padding: 8rem 10% 12rem 10%;
+        padding: 10rem 10% 12rem 10%;
         text-align: center;
     }
     .tutorial .tutorial-wrapper h4{
