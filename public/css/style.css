@@ -68,7 +68,9 @@ html{
     background: var(--default-purple);
     color: #fff;
 }
-
+.home{
+    padding: 5rem 0;
+}
 .home .home-wrapper{
     display: grid;
     gap: 2rem;
@@ -119,7 +121,7 @@ html{
     text-align: center;
 }
 .quality .quality-header h5{
-    font-size: 1.2rem;
+    font-size: 2.5rem;
     color: var(--default-purple);
 }
 .quality .quality-header h2{
@@ -130,14 +132,17 @@ html{
     margin-top: 6rem;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
-    gap: 4rem;
+    gap: 2rem;
 }
 .quality .frame .box img{
     width: 30%;
 }
 .quality .frame .box h5{
-    font-size: 1rem;
+    font-size: 1.2rem;
     padding: 1.5rem 0;
+}
+.quality .frame .box p{
+    font-size: 1.1rem;
 }
 
 /* Agency Section  */
@@ -232,15 +237,13 @@ html{
 }
 .comments .comment-wrapper{
     text-align: center;
-    /* width: 876px; */
-    /* background: red; */
 }
 .comments .comment-wrapper h4{
     color: var(--default-purple);
-    font-size: 1.2rem;
+    font-size: 2.5rem;
 }
 .comments .comment-wrapper h1{
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: var(--default-black);
     padding: .5rem 0;
 }
@@ -262,10 +265,14 @@ html{
     align-items: center;
     padding: 2rem 0;
     justify-content: center;
+    text-align: left;
 }
-/* .comments .comment-wrapper .comment .box:hover{
-    border-top: 3px solid var(--default-purple);
-} */
+.comments .comment-wrapper .comment .box .text h3{
+    font-size: 1.5rem;
+}
+.comments .comment-wrapper .comment .box .text p{
+    font-size: 1.4rem;
+}
 
 /* Support Section  */
 .support{
@@ -322,10 +329,10 @@ html{
 }
 .tutorial .tutorial-wrapper h4{
     color: var(--default-purple);
-    font-size: 1.2rem;
+    font-size: 2.5rem;
 }
 .tutorial .tutorial-wrapper h1{
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: var(--default-black);
     padding: .5rem 0;
 }
@@ -427,12 +434,19 @@ html{
         font-size: 1.7rem;
         color: #7d7c88;
     }
+    .home{
+        padding: 10rem 0 0 0;
+        background: #f6f8fb;
+    }
+    .home .home-wrapper{        
+        height: 55rem;        
+    }
     .home .home-wrapper{
         padding: 0 7%;        
     }
     .home .home-wrapper .section-one h1{
         font-size: 3rem;
-        margin-top: 10rem;
+        /* margin-top: 10rem; */
         text-align: center;
     }
     .home .home-wrapper .section-one p{
@@ -464,7 +478,7 @@ html{
 
     /* Quality Section  */
     .quality{
-        margin: 18rem 10%;
+        margin: 6rem 10%;
     }
     .quality .quality-header h5{
         font-size: 2rem;

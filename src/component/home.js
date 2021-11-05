@@ -116,7 +116,7 @@ const Home =()=>{
                     <p className="comment-p">They are doing amazing job with hundred percent customer satisfaction, Love their work and would like to work with them again</p>
                     
                     <div className="comment">
-                        <div className="box box-border">
+                        <div className="box">
                             <img alt="comment1" src={comment1} />
                             <div className="text">
                                 <h3>Pierre Hackett</h3>
