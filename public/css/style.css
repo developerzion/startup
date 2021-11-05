@@ -222,13 +222,27 @@ html{
     color: var(--default-purple);
 }
 .trust .overlay{   
-    width: 10rem;
-    height: 40rem;
-    line-height: 40rem;
+    width: 100%;
     margin-top: 3rem;
+    background-image: url("../images/trust.png");
+    height: 40rem ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .trust  .overlay img{
     width: 100%;
+}
+.trust  .overlay img.play{
+    width: 10%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.trust .overlay img.play::before, .trust  .overlay img.play::after{
+    position: absolute;
+    border: 2px solid var(--default-purple);
 }
 
 /* Comments Section  */
@@ -534,9 +548,15 @@ html{
     .trust .trust-header .explore span{
         margin-left: 1rem;
     }
+    .trust .overlay{   
+        height: 30rem ;
+    }
+    .trust  .overlay img.play{
+        width: 25%;
+    }
     /* Comments Section  */
     .comments{
-        padding: 10rem 10%;
+        padding: 3rem 10%;
     }
     .comments .comment-wrapper h4{
         font-size: 2rem;
