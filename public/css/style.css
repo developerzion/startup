@@ -9,7 +9,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
 
 :root{
-    --default-purple: #8d448b;
+    --default-purple: #9a2aff;
+     /* #8d448b; */
     --default-black: #02073E;
     --box-shadow: 0 .5rem 1rem rgba(0,0,0,.1)
 }
