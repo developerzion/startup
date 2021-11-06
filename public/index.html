@@ -26,7 +26,19 @@
         Author: Moses Samuel Zion
         Website: www.devparse.com 
     ============================================ -->
-   
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+      const sr = ScrollReveal({
+    origin: 'bottom',
+    distance: '30px',
+    duration: 2000,
+    reset: true
+});
+
+sr.reveal(`.animate`, {
+    interval: 200
+})
+    </script>
     <script src="./js/jquery-3.3.1.js"></script>
     <script>
         $(function() {

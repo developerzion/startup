@@ -18,8 +18,10 @@ function closeBar(){
     document.querySelector("#bars").classList.toggle("fa-times")
 }
 
+
 //Header Component
 const Header = () =>{
+    
     return(
         <header className="header">
             
@@ -45,5 +47,6 @@ const Header = () =>{
         </header>
     )
 }
+
 
 export default Header

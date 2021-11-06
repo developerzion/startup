@@ -21,8 +21,8 @@ import frame2 from '../images/Frame2.png'
 import frame3 from '../images/Frame3.png'
 import agency from '../images/agency.png'
 import user1 from '../images/user1.jfif'
-import user2 from '../images/user2.jfif'
-import user3 from '../images/user3.jpg'
+import user2 from '../images/user2.jpg'
+import user3 from '../images/user3.jfif'
 import user4 from '../images/user4.jpg'
 import support from '../images/support.png'
 import tutorial1 from '../images/tutorial1.png'
@@ -55,7 +55,7 @@ const Home =()=>{
             </section>   
 
             <section id="quality" className="quality">
-                <div className="quality-header">
+                <div className="quality-header animate">
                     <h5>Quality Features</h5>
                     <h2>Meet exciting feature of app</h2>
                 </div>
@@ -135,15 +135,15 @@ const Home =()=>{
                         <div className="box">
                             <img alt="comment1" src={user2} />
                             <div className="text">
-                                <h3>Natalia Sanz</h3>
-                                <p>Head of Technology</p>
+                                <h3>Moses Samuel</h3>
+                                <p>Software Engineer</p>
                             </div>
                         </div>
                         <div className="box">
                             <img alt="comment1" src={user3} />
                             <div className="text">
-                                <h3>Moses Samuel</h3>
-                                <p>Software Engineer</p>
+                                <h3>Ece Akman</h3>
+                                <p>Senior Marketer</p>
                             </div>
                         </div>
                         <div className="box">
