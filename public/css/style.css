@@ -6,16 +6,17 @@
     Website: www.devparse.com 
 ============================================ */
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 :root{
-    --default-purple: #9a2aff;
+    --default-purple: #8d448b;;
+    /* #9a2aff; */
      /* #8d448b; */
     --default-black: #02073E;
     --box-shadow: 0 .5rem 1rem rgba(0,0,0,.1)
 }
 *{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     padding: 0; margin: 0;
     outline: none; border: none;
     transition: all .2s linear;
@@ -49,9 +50,13 @@ html{
     align-items: center;
     color: var(--default-black);
 }
-.header span img{
+/* .header span img{
     width: 20px;
     margin-right: .5rem;
+} */
+.header span h2{
+    font-size: 2.5rem;
+    font-weight: 900;
 }
 .header .navbar.active{
     left: 0;

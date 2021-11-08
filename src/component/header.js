@@ -25,7 +25,8 @@ const Header = () =>{
     return(
         <header className="header">
             
-            <span className="logo"><img alt='Logo' src={Logo} /> <h2>PurpleFlame</h2></span>
+            {/* <span className="logo"><img alt='Logo' src={Logo} /> <h2>PurpleFlame</h2></span> */}
+            <span className="logo"><h2>Logo.</h2></span>
             
             <nav className="navbar">
                 <a onClick={ ()=> closeBar() } href="#home" >Home</a>
