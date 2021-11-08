@@ -9,7 +9,7 @@
 import React from "react";
 
 //Import Image
-import Logo from '../images/logo.png'
+// import Logo from '../images/logo.png'
 
 //Functions
 function closeBar(){
