@@ -397,7 +397,10 @@ html{
 /* Tutorial Section  */
 .tutorial{
     margin-top: 5rem;
-    background: #f6f8fb;
+    /* background: #f6f8fb; */
+    background: url("../images/contour.svg");
+    background-size: contain;
+    background-position: center;
 }
 .tutorial .tutorial-wrapper{
     padding: 8rem 20% 16rem 20%;
@@ -690,13 +693,13 @@ html{
         padding: 4rem 7%;
     }   
     .comments .comment-wrapper h4{
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
     .comments .comment-wrapper h1{
         font-size: 1.5rem;
     }
     .comments .comment-wrapper .comment-p{
-        font-size: 1.5rem;
+        font-size: 1.7rem;
     }
     .comments .comment-wrapper .comment{
         grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
@@ -716,7 +719,7 @@ html{
     /* Support Section  */
     .support{
         padding: 4rem 0;
-        margin: 0rem 7% 5rem 7%;
+        margin: 0rem 7%;
     }    
     .support .support-wrapper .box h1{
         font-size: 2.5em;
@@ -731,6 +734,7 @@ html{
     .support .support-wrapper .box p{
         font-size: 1.5rem;
         font-weight: 500;
+        /* margin-top: .2rem; */
         line-height: 2.5rem;
     }
     /* Tutorial Section  */

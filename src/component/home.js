@@ -127,14 +127,11 @@ const Home =()=>{
                     </div>                   
                     <div className="box">
                         <h1>Free Customer Support to ensure what you like to expect</h1>
-                        <span>We offer a risk-free trial period of up to two weeks. You will only have to pay if you are happy with the developer and wish to continue. If you are unsatisfied, we’ll refund payment or fix issues on our dime period customers.</span>
-                        <p>If you are happy with the developer and wish to continue. If you are unsatisfied, we’ll refund payment or fix issues.</p>
-                        {/* <a href="#home" className="learn">Learn more <span className="fa fa-angle-right"></span></a> */}
-                    </div>
-                    
-                    
+                        <span>We offer a risk-free trial period of up to two weeks. You will only have to pay if you are happy with the developer and wish to continue. If you are unsatisfied, we’ll refund payment or fix issues on our dime period customers.</span>                        
+                    </div>   
                 </div>
             </section> 
+            
             <section id="comments" className="comments">                
                 <div className="comment-wrapper">                   
                     <h4>Our Team</h4>  
