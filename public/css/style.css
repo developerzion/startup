@@ -26,6 +26,7 @@ html{
     font-size: 68%;
 }
 
+
 .header{
     position: fixed;
     top: 0; right: 0; left: 0;
@@ -362,7 +363,6 @@ html{
 .support .support-wrapper .box img{
     width: 100%;
 }
-
 .support .support-wrapper .box h1{
     font-size: 3em;
 }
@@ -371,7 +371,7 @@ html{
     font-size: 1.4rem;
     font-weight: 500;
     text-align: justify;
-    margin-top: 2rem;
+    margin-top: 1rem;
     display: inline-block;
 }
 .support .support-wrapper .box p{
@@ -638,12 +638,12 @@ html{
     }
     .quality .frame .box{
         box-shadow: var(--box-shadow);
-        padding: 3rem 1rem;
+        padding: 3rem 1.8rem;
         border-radius: 2rem;
     }
     
     .quality .frame .box h5{
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
     .quality .frame .box p{
         font-size: 1.3rem;
@@ -651,9 +651,8 @@ html{
     /* Agency Section  */
     .agency{
         padding: 5rem 0;
-        margin: 0rem 5%;
-    } 
-  
+        margin: 0rem 7%;
+    }   
     .agency .agency-wrapper .box h1{
         font-size: 2.2rem;
         text-align: center;
@@ -664,7 +663,7 @@ html{
     }
     /* Trust Section  */
     .trust{
-        margin: 0rem 5% 5rem 5%;
+        margin: 0rem 7% 5rem 7%;
     }
     .trust .trust-header .box{
         order: 1;
@@ -688,9 +687,8 @@ html{
     }
     /* Comments Section  */
     .comments{
-        padding: 4rem 5%;
-    }
-   
+        padding: 4rem 7%;
+    }   
     .comments .comment-wrapper h4{
         font-size: 2rem;
     }
@@ -718,7 +716,7 @@ html{
     /* Support Section  */
     .support{
         padding: 4rem 0;
-        margin: 0rem 5% 5rem 5%;
+        margin: 0rem 7% 5rem 7%;
     }    
     .support .support-wrapper .box h1{
         font-size: 2.5em;

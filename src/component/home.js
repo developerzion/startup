@@ -120,7 +120,21 @@ const Home =()=>{
                     </div>              
                 </div>
             </section> 
-
+            <section id="support" className="support">                
+                <div className="support-wrapper"> 
+                    <div className="box">
+                        <img src={support} alt="support" />
+                    </div>                   
+                    <div className="box">
+                        <h1>Free Customer Support to ensure what you like to expect</h1>
+                        <span>We offer a risk-free trial period of up to two weeks. You will only have to pay if you are happy with the developer and wish to continue. If you are unsatisfied, we’ll refund payment or fix issues on our dime period customers.</span>
+                        <p>If you are happy with the developer and wish to continue. If you are unsatisfied, we’ll refund payment or fix issues.</p>
+                        {/* <a href="#home" className="learn">Learn more <span className="fa fa-angle-right"></span></a> */}
+                    </div>
+                    
+                    
+                </div>
+            </section> 
             <section id="comments" className="comments">                
                 <div className="comment-wrapper">                   
                     <h4>Our Team</h4>  
@@ -159,20 +173,7 @@ const Home =()=>{
                     </div>                    
                 </div>
             </section>  
-            <section id="support" className="support">                
-                <div className="support-wrapper">                    
-                    <div className="box box-resize">
-                        <h1>Free Customer Support to ensure what you like to expect</h1>
-                        <span>We offer a risk-free trial period of up to two weeks. You will only have to pay if you are happy with the developer and wish to continue. If you are unsatisfied, we’ll refund payment or fix issues on our dime period customers.</span>
-                        <p>If you are happy with the developer and wish to continue. If you are unsatisfied, we’ll refund payment or fix issues.</p>
-                        {/* <a href="#home" className="learn">Learn more <span className="fa fa-angle-right"></span></a> */}
-                    </div>
-                    <div className="box">
-                        <img src={support} alt="support" />
-                    </div>
-                    
-                </div>
-            </section> 
+            
             <section id="blog" className="tutorial">                
                 <div className="tutorial-wrapper">                   
                     <h4>Quality features</h4>  
