@@ -64,22 +64,22 @@ const Home =()=>{
                     <div className="box">
                         <img alt="frame" src={frame} />
                         <h5>Unlimited Customization</h5>
-                        <p>Get your blood tests delivered at home collect a sample from the your blood tests.</p>
+                        <p>Lorem Ipsum has been the industry's standard dummy text</p>
                     </div>
                     <div className="box">
                         <img alt="frame 1" src={frame1} />
                         <h5>Vector shape & resizable</h5>
-                        <p>Get your blood tests delivered at home collect a sample from the your blood tests.</p>
+                        <p>Lorem Ipsum has been the industry's standard dummy text</p>
                     </div>
                     <div className="box">
                         <img alt="frame 2" src={frame2} />
                         <h5>Editing freedom</h5>
-                        <p>Get your blood tests delivered at home collect a sample from the your blood tests.</p>
+                        <p>Lorem Ipsum has been the industry's standard dummy text</p>
                     </div>
                     <div className="box">
                         <img alt="frame 3" src={frame3} />
                         <h5>Best Award history</h5>
-                        <p>Get your blood tests delivered at home collect a sample from the your blood tests.</p>
+                        <p>Lorem Ipsum has been the industry's standard dummy text</p>
                     </div>
                 </div>
 
@@ -106,16 +106,19 @@ const Home =()=>{
                 <div className="trust-header">   
                     <div className="box">
                         <h1>Leading companies trust us to develop software</h1>
-                        <p>We believe it’s important for everyone to have access to software especially when it comes to digital learning be navigate.</p>
-                        <a href="#home" className="explore"><span>Explore details</span> <span className="fa fa-angle-right"></span></a>
-                    </div>                
+                        <p>We believe it’s important for everyone to have access to software especially when it comes to digital learning be navigate.
+                        <br/>
+                        <br/>
+                        We offer a risk-free trial period of up to two weeks. You will only have to pay if you are happy with the developer and wish to continue. If you are unsatisfied, we’ll refund payment or fix issues on our dime period customers.
+                        </p>
+                        {/* <a href="#home" className="explore"><span>Explore details</span> <span className="fa fa-angle-right"></span></a> */}
+                    </div>  
+                    <div className="overlay">
+                        <div className="play-btn">
+                            <a href="https://www.youtube.com/watch?v=jQLht1t_1QE"><i className="fa fa-play-circle"></i></a>
+                        </div> 
+                    </div>              
                 </div>
-                <div className="overlay">
-                    <div className="play-btn">
-                        <a href="https://www.youtube.com/watch?v=jQLht1t_1QE"><i className="fa fa-play-circle"></i></a>
-                    </div> 
-                </div>                   
-                
             </section> 
 
             <section id="comments" className="comments">                
@@ -162,7 +165,7 @@ const Home =()=>{
                         <h1>Free Customer Support to ensure what you like to expect</h1>
                         <span>We offer a risk-free trial period of up to two weeks. You will only have to pay if you are happy with the developer and wish to continue. If you are unsatisfied, we’ll refund payment or fix issues on our dime period customers.</span>
                         <p>If you are happy with the developer and wish to continue. If you are unsatisfied, we’ll refund payment or fix issues.</p>
-                        <a href="#home" className="learn">Learn more <span className="fa fa-angle-right"></span></a>
+                        {/* <a href="#home" className="learn">Learn more <span className="fa fa-angle-right"></span></a> */}
                     </div>
                     <div className="box">
                         <img src={support} alt="support" />

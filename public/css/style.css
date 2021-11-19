@@ -146,13 +146,12 @@ html{
     margin-top: 6rem;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
-    gap: 3rem;
-   
+    gap: 2rem;   
 }
 .quality .frame .box{
     position: relative;
     box-shadow: var(--box-shadow);
-    padding: 2rem;
+    padding: 3rem;
     border-radius: 2rem;
 }
 .quality .frame .box:hover{
@@ -234,9 +233,9 @@ html{
 .trust .trust-header{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-    width: 60rem;
-    margin: 0 auto;
-    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
 }
 .trust .trust-header .box h1{
     font-size: 3rem;
@@ -248,9 +247,6 @@ html{
     line-height: 2.5rem;
 }
 .trust .trust-header .box a.explore{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     font-weight: 600;
     font-size: 1.5rem;
     color: var(--default-purple);
@@ -354,12 +350,12 @@ html{
 /* Support Section  */
 .support{
     padding: 10rem 0;
-    margin: 2rem 20%;
+    margin: 2rem 15%;
 }
 .support .support-wrapper{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-    gap: 2rem;
+    gap: 4rem;
     align-items: center;
     color: var(--default-black);
 }
@@ -372,20 +368,24 @@ html{
 }
 .support .support-wrapper .box span{
     line-height: 2.5rem;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    text-align: justify;
+    margin-top: 2rem;
+    display: inline-block;
 }
 .support .support-wrapper .box p{
-    font-size: 1rem;
-    font-weight: 600;
+    font-size: 1.4rem;
+    font-weight: 500;
     color:#02073E;
     padding: 1rem 0;
-    line-height: 1.9rem;
+    line-height: 2.5rem;
 }
 .support .support-wrapper .box .learn{
     display: flex;
     align-items: center;
     font-weight: 600;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     margin-top: 1.3rem;
     color: var(--default-purple);
 }
@@ -650,7 +650,7 @@ html{
     }
     /* Agency Section  */
     .agency{
-        padding: 10rem 0;
+        padding: 5rem 0;
         margin: 0rem 5%;
     } 
   
@@ -666,12 +666,9 @@ html{
     .trust{
         margin: 0rem 5% 5rem 5%;
     }
-    .trust .trust-header{
-        width: 35rem;
-        margin: 0 auto;
+    .trust .trust-header .box{
         order: 1;
     }
-   
     .trust .trust-header .box h1{
         font-size: 2rem;
     }
@@ -693,14 +690,7 @@ html{
     .comments{
         padding: 4rem 5%;
     }
-    /* .comments .comment-wrapper .comment .box{
-        display: flex;
-        gap: 2rem;
-        align-items: center;
-        padding: 2rem 0;
-        justify-content: center;
-        text-align: left;
-    } */
+   
     .comments .comment-wrapper h4{
         font-size: 2rem;
     }
@@ -727,20 +717,22 @@ html{
     }
     /* Support Section  */
     .support{
-        padding: 10rem 0;
-        margin: 0rem 5%;
+        padding: 4rem 0;
+        margin: 0rem 5% 5rem 5%;
     }    
     .support .support-wrapper .box h1{
         font-size: 2.5em;
     }
     .support .support-wrapper .box span{
-        font-size: 1.4rem;
+        font-size: 1.5rem;
+        font-weight: 500;
         display: inline-block;
         padding: 2rem 0;
+        text-align: justify;
     }
     .support .support-wrapper .box p{
-        font-size: 1.4rem;
-        font-weight: normal;
+        font-size: 1.5rem;
+        font-weight: 500;
         line-height: 2.5rem;
     }
     /* Tutorial Section  */
