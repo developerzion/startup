@@ -90,7 +90,7 @@ const Home =()=>{
                     <div className="box">
                         <img src={agency} alt="Agency" />
                     </div>
-                    <div className="box box-resize">
+                    <div className="box">
                         <h1>Boost your agencies by choosing Ninja Developers</h1>
                         <span className="agent-span">Create custom landing pages with Shades that convert more visitors than any website, no coding required.</span>
                         <p><span className="stylefont fa fa-check"></span> Unlimited design possibility</p>
@@ -107,7 +107,7 @@ const Home =()=>{
                     <div className="box">
                         <h1>Leading companies trust us to develop software</h1>
                         <p>We believe it’s important for everyone to have access to software especially when it comes to digital learning be navigate.</p>
-                        <a href="#home" className="explore">Explore details <span className="fa fa-angle-right"></span></a>
+                        <a href="#home" className="explore"><span>Explore details</span> <span className="fa fa-angle-right"></span></a>
                     </div>                
                 </div>
                 <div className="overlay">

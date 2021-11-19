@@ -10,8 +10,6 @@
 
 :root{
     --default-purple: #8d448b;;
-    /* #9a2aff; */
-     /* #8d448b; */
     --default-black: #02073E;
     --box-shadow: 0 .5rem 1rem rgba(0,0,0,.1)
 }
@@ -50,10 +48,7 @@ html{
     align-items: center;
     color: var(--default-black);
 }
-/* .header span img{
-    width: 20px;
-    margin-right: .5rem;
-} */
+
 .header span h2{
     font-size: 2.5rem;
     font-weight: 900;
@@ -137,7 +132,7 @@ html{
 .quality{
     text-align: center;
     padding: 10rem 0;
-    margin: -5rem 20%;
+    margin: -5rem 15%;
 }
 .quality .quality-header h5{
     font-size: 2.5rem;
@@ -150,8 +145,18 @@ html{
 .quality .frame{
     margin-top: 6rem;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
-    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+    gap: 3rem;
+   
+}
+.quality .frame .box{
+    position: relative;
+    box-shadow: var(--box-shadow);
+    padding: 2rem;
+    border-radius: 2rem;
+}
+.quality .frame .box:hover{
+    top: -.5rem;
 }
 .quality .frame .box img{
     width: 30%;
@@ -162,32 +167,38 @@ html{
 }
 .quality .frame .box p{
     font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 2.1rem;
 }
 
 /* Agency Section  */
 .agency{
-    margin: 0rem 20%;
+    margin: 0rem 15%;
     padding: 10rem 0;
 }
 .agency .agency-wrapper{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
+    gap: 3rem;
     align-items: center;
     color: var(--default-black);
 }
 .agency .agency-wrapper .box img{
     width: 100%;
 }
-.agency .agency-wrapper .box-resize{
+/* .agency .agency-wrapper .box-resize{
     width: 35rem;
-}
+} */
 .agency .agency-wrapper .box h1{
     font-size: 3em;
+    margin-bottom: 2rem;
 }
-.agency .agency-wrapper .box span{
+.agency .agency-wrapper .box span.agent-span{
+    display: inline-block;
     line-height: 2.5rem;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
 }
 .agency .agency-wrapper .box p{
     padding: .5rem;
@@ -208,7 +219,7 @@ html{
     align-items: center;
     margin-left: 1rem;
     font-weight: 600;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     margin-top: 1.3rem;
     color: var(--default-purple);
 }
@@ -218,29 +229,36 @@ html{
 
 /* Trust Section  */
 .trust{
-    margin: 0rem 20%;
+    margin: 0rem 15%;
 }
 .trust .trust-header{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-    width: 40rem;
+    width: 60rem;
     margin: 0 auto;
     text-align: center;
 }
 .trust .trust-header .box h1{
-    font-size: 2.7rem;
+    font-size: 3rem;
 }
 .trust .trust-header .box p{
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+    font-weight: 500;;
     padding: 1.5rem 0;
     line-height: 2.5rem;
 }
-.trust .trust-header .explore{
-    display: inline-block;
+.trust .trust-header .box a.explore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-weight: 600;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     color: var(--default-purple);
 }
+.trust .trust-header .box a span{
+    margin-left: 1rem;
+}
+
 .trust .overlay{   
     width: 100%;
     margin-top: 3rem;
@@ -249,6 +267,7 @@ html{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 2rem;
 }
 .trust  .overlay img{
     width: 100%;
@@ -295,7 +314,7 @@ html{
 }
 .comments .comment-wrapper h4{
     color: var(--default-purple);
-    font-size: 2.5rem;
+    font-size: 3rem;
 }
 .comments .comment-wrapper h1{
     font-size: 1.5rem;
@@ -303,7 +322,8 @@ html{
     padding: .5rem 0;
 }
 .comments .comment-wrapper .comment-p{
-    font-size: 3rem;
+    font-size: 2.5rem;
+    line-height: 3.5rem;
     font-style: italic;
     padding: 2rem 0rem 5rem 0rem;
 }
@@ -346,9 +366,7 @@ html{
 .support .support-wrapper .box img{
     width: 100%;
 }
-.agency .agency-wrapper .box-resize{
-    width: 35rem;
-}
+
 .support .support-wrapper .box h1{
     font-size: 3em;
 }
@@ -500,7 +518,7 @@ html{
 }
 @media (max-width: 937px){
     .header{
-        padding: 2rem 5%;
+        padding: 2rem 8%;
     }
     .header .bars{
         display: inline-block;
@@ -509,7 +527,7 @@ html{
         font-size: 1.3rem;
     }
     .header .bars{
-        font-size: 2.5rem;
+        font-size: 3rem;
         color: var(--default-black);
     }
     .header .signup a{
@@ -600,13 +618,14 @@ html{
     .home .home-wrapper .section-one .search-form{       
         display: none;
     }
+  
     /* Quality Section  */
     .quality{
-        margin: 0rem 10%;
+        margin: 0rem 5%;
         padding: 3rem 0;
     }
     .quality .quality-header h5{
-        font-size: 2rem;
+        font-size: 2.5rem;
         margin-top: 9rem;
     }
     .quality .quality-header h2{
@@ -614,14 +633,17 @@ html{
         margin: .5rem 0;
     }
     .quality .frame{
-        grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+        gap: 1rem;
     }
     .quality .frame .box{
         box-shadow: var(--box-shadow);
-        padding: 5rem 4rem;
+        padding: 3rem 1rem;
+        border-radius: 2rem;
     }
+    
     .quality .frame .box h5{
-        font-size: 1.3rem;
+        font-size: 1.5rem;
     }
     .quality .frame .box p{
         font-size: 1.3rem;
@@ -629,33 +651,31 @@ html{
     /* Agency Section  */
     .agency{
         padding: 10rem 0;
-        margin: 0rem 10%;
+        margin: 0rem 5%;
     } 
-    .agency .agency-wrapper .box-resize{
-        width: 30rem;
-    }
+  
     .agency .agency-wrapper .box h1{
         font-size: 2.2rem;
         text-align: center;
+        margin-bottom: 1rem;
     }
-    .agency .agency-wrapper .box .agent-span{
-        display: inline-block;
-        padding: 2rem 0;
+    .agency .agency-wrapper .box span.agent-span{
+        margin-bottom: 1rem;
     }
     /* Trust Section  */
     .trust{
-        margin: 0rem 10% 5rem 10%;
+        margin: 0rem 5% 5rem 5%;
     }
     .trust .trust-header{
-        width: 30rem;
+        width: 35rem;
         margin: 0 auto;
+        order: 1;
     }
+   
     .trust .trust-header .box h1{
         font-size: 2rem;
     }
-    .trust .trust-header .box p{
-        text-align: left;
-    }
+  
     .trust .trust-header .explore{
         display: flex;
         align-items: center;
@@ -671,7 +691,7 @@ html{
     }
     /* Comments Section  */
     .comments{
-        padding: 4rem 10%;
+        padding: 4rem 5%;
     }
     /* .comments .comment-wrapper .comment .box{
         display: flex;
@@ -708,7 +728,7 @@ html{
     /* Support Section  */
     .support{
         padding: 10rem 0;
-        margin: 0rem 10%;
+        margin: 0rem 5%;
     }    
     .support .support-wrapper .box h1{
         font-size: 2.5em;
