@@ -397,10 +397,10 @@ html{
 /* Tutorial Section  */
 .tutorial{
     margin-top: 5rem;
-    /* background: #f6f8fb; */
-    background: url("../images/contour.svg");
+    background: #f6f8fb;
+    /* background: url("../images/contour.svg");
     background-size: contain;
-    background-position: center;
+    background-position: center; */
 }
 .tutorial .tutorial-wrapper{
     padding: 8rem 20% 16rem 20%;
@@ -539,7 +539,7 @@ html{
     .header .navbar{
         position: fixed;        
         top: 6rem;
-        left: -100%;
+        left: -200%;
         width: 100%;
         box-shadow: var(--box-shadow);
         height: 100vh;
@@ -583,7 +583,7 @@ html{
 
     /* Home Section  */
     .home{
-        padding: 10rem 0 0 0;
+        padding: 0rem 0 0 0;
         background: #f6f8fb;
     }
     .home .home-wrapper{        
@@ -805,9 +805,11 @@ html{
     }
     .footer .footer-wrapper .box-nav a{
         font-size: 1.1rem;  
+    } 
+}
+@media (max-width: 680px){
+    .home{
+        padding: 10rem 0 0 0;
     }
-
-   
-   
 }
 
